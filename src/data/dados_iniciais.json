@@ -55,28 +55,28 @@
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Gatos Assustadaos",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Vídeos de Gatos Assustados",
+        "url": "https://www.youtube.com/watch?v=ugp6PXX0-1M"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Gatos assustados 2017 #2",
+          "url": "https://www.youtube.com/watch?v=2W878_OHrn0"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Gatos tomando sustos.",
+          "url": "https://www.youtube.com/watch?v=dfsUtqpdL8o"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Top 10 : Sustos de Gatos",
+          "url": "https://www.youtube.com/watch?v=hRHLhde86oc"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "gatos vs sustos",
+          "url": "https://www.youtube.com/watch?v=QNboC2dOHRg"
         }
       ]
     },
