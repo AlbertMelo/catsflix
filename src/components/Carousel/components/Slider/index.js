@@ -19,8 +19,7 @@ const Container = styled.ul`
         &:before{
             font-size: 60px;
         }
-      
-        
+              
     }
 
     .slick-prev{
@@ -42,31 +41,31 @@ export const SliderItem = styled.li`
 `;
 
 function SampleArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-        <div
-            className={className}
-            style={{ ...style, display: "block", color: "black" }}
-            onClick={onClick}
-        />
-    );
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: 'block', color: 'black' }}
+      onClick={onClick}
+    />
+  );
 }
 
-
 const Slider = ({ children }) => (
-    <Container>
-        <SlickSlider {...{
-            dots: false,
-            infinite: false,
-            speed: 300,
-            centerMode: false,
-            variableWidth: true,
-            adaptiveHeight: true,
-            nextArrow: <SampleArrow />,
-            prevArrow: <SampleArrow />
-        }}
-        >{children}
-        </SlickSlider>
-    </Container>
+  <Container>
+    <SlickSlider {...{
+      dots: false,
+      infinite: true,
+      speed: 300,
+      centerMode: false,
+      variableWidth: true,
+      adaptiveHeight: true,
+      nextArrow: <SampleArrow />,
+      prevArrow: <SampleArrow />,
+    }}
+    >
+      {children}
+    </SlickSlider>
+  </Container>
 );
 export default Slider;

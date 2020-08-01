@@ -1,19 +1,19 @@
 import React from 'react';
-import Menu from '../../components/Menu'
-import BannerMain from '../../components/BannerMain'
-import Carousel from '../../components/Carousel'
-import Footer from '../../components/Footer'
-import dadosIniciais from '../../data/dados_iniciais.json'
+import Menu from '../../components/Menu';
+import BannerMain from '../../components/BannerMain';
+import Carousel from '../../components/Carousel';
+import Footer from '../../components/Footer';
+import dadosIniciais from '../../data/dados_iniciais.json';
 
 function Home() {
   return (
-    <div style={{ background: "#141414"}}>
+    <div style={{ background: '#141414' }}>
       <Menu />
 
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Por quê perdemos tanto tempo vendo vídeos de gatinhos fofinhos durante a procastinação?"}
+        videoDescription="Por quê perdemos tanto tempo vendo vídeos de gatinhos fofinhos durante a procastinação?"
       />
 
       <Carousel
