@@ -28,7 +28,7 @@ function CadastroCategoria() {
   // possue dois parametros, o priemiro é o que queremos que aconteça
   // o 2nd parametro é quando que queremos que aconteça  (eh um array - quais coisas atualizarem)
   useEffect(() => {
-    const URL_TOP = 'http://localhost:8080/categorias';
+    const URL_TOP = 'https://catsflix.herokuapp.com/categorias';
     fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
