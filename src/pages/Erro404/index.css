@@ -1,0 +1,25 @@
+.imagem404 {
+    width: 30em;
+    height: 30em;
+    float: left;
+}
+
+.titulo {
+    font-size: 4em;
+    font-weight: bold;
+    color: #FF0000;
+      
+
+}
+
+.conteudo {
+
+    font-size: 2em;
+    color: white;
+}
+
+.conteudo_miau{
+
+    font-size: 2em;
+    color: yellow;
+}
