@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import FormField from '../../../components/FormField';
 import PageDefault from '../../../components/PageDefault';
@@ -23,6 +23,20 @@ function CadastroCategoria() {
     setValue(infosDoEvento.target.getAttribute('name'),
       infosDoEvento.target.value);
   }
+
+  // useEffect eh um efeito colateral que queremos que aconteça quando acontecer algo
+  // possue dois parametros, o priemiro é o que queremos que aconteça
+  // o 2nd parametro é quando que queremos que aconteça  (eh um array - quais coisas atualizarem)
+  useEffect(() => {
+    const URL_TOP = 'http://localhost:8080/categorias';
+    fetch(URL_TOP)
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setCategorias([
+          ...resposta,
+        ]);
+      });
+  }, []);
 
   return (
     <PageDefault>
@@ -68,6 +82,12 @@ function CadastroCategoria() {
 
       </form>
 
+      {categorias.length === 0 && (
+        <div>
+          {/* Carregando categorias */}
+          Carregando...
+        </div>
+      )}
       <ul>
         {categorias.map((categoria) => (
           <li key={categoria}>
