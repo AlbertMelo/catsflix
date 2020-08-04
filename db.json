@@ -2,21 +2,95 @@
     "categorias": [
         {
             "id": "1",
-            "nome": "Tente Não Rir",
+            "titulo": "Tente Não Rir",
             "descricao": "Vídeos do Tente não rir de gatos",
-            "cor": "#6bd1ff"
+            "cor": "#6BD1FF"
         },
         {
             "id": "2",
-            "nome": "Coletânea de Vídeos Gatos Engraçados ",
-            "descricao": "Videos para você tentar não rir",
+            "titulo": "Coleção Gatos Engraçados",
+            "descricao": "Coletânea de Vídeos \"Gatos Engraçados\"",
             "cor": "#00c86f"
         },
         {
             "id": "3",
-            "nome": "Gatos Assustados ",
+            "titulo": "Gatos Assustados ",
             "descricao": "Vídeos de Gatos Assustados",
             "cor": "#9cd33b"
         }
+    ],
+    "videos": [
+        {
+            "id": 1,
+            "categoriaId": 1,
+            "titulo": "Procastinando enquanto vê vídeos de gatos na Internet",
+            "url": "https://www.youtube.com/watch?v=Ud0bP7EYfoQ"
+        },
+        {
+            "id": 2,
+            "categoriaId": 1,
+            "titulo": "TENTE NÃO RIR OS VÍDEOS DE GATOS MAIS ENGRAÇADOS 😽 PARTE 2",
+            "url": "https://www.youtube.com/watch?v=zbDQgFtce5M&t=19s"
+        },
+        {
+            "id": 3,
+            "categoriaId": 1,
+            "titulo": "TENTE NÃO RIR OS VÍDEOS DE GATOS MAIS ENGRAÇADOS 😽 PARTE 3",
+            "url": "https://www.youtube.com/watch?v=eMEZTl-7Vvw&t=5s"
+        },
+        {
+            "id": 4,
+            "categoriaId": 2,
+            "titulo": "Gatos engraçados #7",
+            "url": "https://www.youtube.com/watch?v=eE3H_7JwHOs"
+          },
+          {
+            "id": 5,
+            "categoriaId": 2,
+            "titulo": "Gatos engraçados #3",
+            "url": "https://www.youtube.com/watch?v=F-WOyYAlko4"
+          },
+          {
+            "id": 6,
+            "categoriaId": 2,
+            "titulo": "Gatos engraçados #10",
+            "url": "https://www.youtube.com/watch?v=9kkIzivnC78"
+          },
+          {
+            "id": 7,
+            "categoriaId": 2,
+            "titulo": "Gatos engraçados #4",
+            "url": "https://www.youtube.com/watch?v=STnY8Nl9oz0"
+          }, 
+          {
+            "id": 8,
+            "categoriaId": 2,
+            "titulo": "Gatos engraçados #11",
+            "url": "https://www.youtube.com/watch?v=MD-fIj6pvGc&t=36s"
+          },
+          {
+            "id": 9,
+            "categoriaId": 3,
+            "titulo": "Gatos assustados 2017 #2",
+            "url": "https://www.youtube.com/watch?v=2W878_OHrn0"
+          },
+          {
+            "id": 10,
+            "categoriaId": 3,
+            "titulo": "Gatos tomando sustos.",
+            "url": "https://www.youtube.com/watch?v=dfsUtqpdL8o"
+          },
+          {
+            "id": 11,
+            "categoriaId": 3,
+            "titulo": "Top 10 : Sustos de Gatos",
+            "url": "https://www.youtube.com/watch?v=hRHLhde86oc"
+          },
+          {
+            "id": 12,
+            "categoriaId": 3,
+            "titulo": "gatos vs sustos",
+            "url": "https://www.youtube.com/watch?v=QNboC2dOHRg"
+          }
     ]
 }
